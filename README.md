@@ -233,3 +233,10 @@ When you need changes, pick a quick tweak or write custom feedback, hit **Apply 
 ```
 
 ---
+
+## UI
+
+
+<img width="1512" height="982" alt="Screenshot 2025-11-09 at 1 30 16 AM" src="https://github.com/user-attachments/assets/050f2a04-d55f-4664-8d89-6bf2aec05e34" />
+<img width="1512" height="982" alt="Screenshot 2025-11-09 at 1 32 39 AM" src="https://github.com/user-attachments/assets/cbcf395d-575e-484a-b246-21e1964398d0" />
+<img width="1512" height="982" alt="Screenshot 2025-11-09 at 1 32 44 AM" src="https://github.com/user-attachments/assets/6ad632c3-05c9-4ecc-8919-d22663a63f58" />
