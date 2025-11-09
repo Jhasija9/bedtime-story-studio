@@ -195,7 +195,7 @@ Enter a topic, age, and tone; the script prints the story along with the judge J
 > - Gemini run:  
 >   ```bash
 >   export STORY_LLM_PROVIDER=gemini
->   export GEMINI_MODEL=gemini-1.5-flash-latest   # optional override
+>   export GEMINI_MODEL=gemini-2.5-flash   # optional override
 >   export GOOGLE_API_KEY=ya29...                # or set in .env
 >   ```
 
