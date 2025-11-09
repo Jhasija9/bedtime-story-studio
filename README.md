@@ -235,8 +235,6 @@ When you need changes, pick a quick tweak or write custom feedback, hit **Apply 
 ---
 
 ## UI
-
-
-<img width="1512" height="982" alt="Screenshot 2025-11-09 at 1 30 16 AM" src="https://github.com/user-attachments/assets/050f2a04-d55f-4664-8d89-6bf2aec05e34" />
-<img width="1512" height="982" alt="Screenshot 2025-11-09 at 1 32 39 AM" src="https://github.com/user-attachments/assets/cbcf395d-575e-484a-b246-21e1964398d0" />
-<img width="1512" height="982" alt="Screenshot 2025-11-09 at 1 32 44 AM" src="https://github.com/user-attachments/assets/6ad632c3-05c9-4ecc-8919-d22663a63f58" />
+<img width="1504" height="904" alt="Screenshot 2025-11-09 at 1 30 16 AM" src="https://github.com/user-attachments/assets/87defec4-6941-4567-9a6f-b2439e2280ca" />
+<img width="1499" height="905" alt="Screenshot 2025-11-09 at 1 32 39 AM" src="https://github.com/user-attachments/assets/f9a943a5-cca0-42b6-a51e-4773cc9f9810" />
+<img width="1507" height="907" alt="Screenshot 2025-11-09 at 1 32 44 AM" src="https://github.com/user-attachments/assets/2f697af4-5e14-4e3b-8bab-b6516eab8bed" />
