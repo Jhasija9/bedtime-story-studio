@@ -91,6 +91,12 @@ graph TD
     style I fill:#e1ffe1
 ```
 
+### Context Diagram
+<img width="4009" height="1166" alt="Context-2025-11-09-055006" src="https://github.com/user-attachments/assets/b3821ee9-29e9-45d0-85b0-d7771552da16" />
+
+### File Directory Diagram
+<img width="2505" height="1952" alt="file_directory-2025-11-09-055044" src="https://github.com/user-attachments/assets/6eb27ee4-e45b-4e31-bc8b-160cc38348b7" />
+
 ### Streamlit Frontend
 
 Run a simple web UI without touching the CLI:
