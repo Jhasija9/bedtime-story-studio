@@ -192,12 +192,7 @@ Enter a topic, age, and tone; the script prints the story along with the judge J
 ### Streamlit “Bedtime Story Studio”
 > **Choose your model before launching**  
 > - Default OpenAI run (assignment-compliant): `export STORY_LLM_PROVIDER=auto` and ensure `.env` has only `OPENAI_API_KEY`.  
-> - Gemini run:  
->   ```bash
->   export STORY_LLM_PROVIDER=gemini
->   export GEMINI_MODEL=gemini-2.5-flash   # optional override
->   export GOOGLE_API_KEY=ya29...                # or set in .env
->   ```
+
 
 ```bash
 source venv/bin/activate
