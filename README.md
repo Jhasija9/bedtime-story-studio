@@ -9,17 +9,6 @@ The attached code is a simple python script skeleton. Your goal is to take any s
 - Please use your own openAI key, but do not include it in your final submission.
 - Otherwise, you may change any code you like or add any files
 
-### Supported Models (what to use)
-- **Default**: OpenAI `gpt-3.5-turbo` (matches the assignment requirement). Simply provide `OPENAI_API_KEY` in `.env` and you are done.
-- **Optional**: Google Gemini (defaults to `gemini-1.5-flash-latest`). Set `GOOGLE_API_KEY` and, if desired, override `GEMINI_MODEL`. Enable it explicitly via:
-  ```bash
-  export STORY_LLM_PROVIDER=gemini
-  export GEMINI_MODEL=gemini-1.5-flash-latest
-  ```
-- `STORY_LLM_PROVIDER=auto` (default) picks whichever provider has a key configured, prioritising OpenAI to stay compliant with the brief.
-
----
-
 ## Rules
 - This assignment is open-ended
 - You may use any resources you like with the following restrictions
@@ -158,50 +147,34 @@ Run a simple web UI without touching the CLI:
 
 ## Setup
 
-```bash
+Clone & enter the repo
+
+git clone https://github.com/<you>/bedtime-story-studio.git
+cd bedtime-story-studio
+Create a virtual environment & install deps
+
 python -m venv venv
-source venv/bin/activate            # Windows: venv\\Scripts\\activate
+source venv/bin/activate              # Windows: venv\Scripts\activate
 pip install --upgrade pip
 pip install -r requirements.txt
-```
+Set your API key(s)
+Add them to .env or export them in the shell before running:
 
-Create a `.env` file:
+# OpenAI (assignment default)
+export OPENAI_API_KEY="sk-proj-..."
+export STORY_LLM_PROVIDER="openai"    # optional; auto defaults to OpenAI
 
-```bash
-# choose one provider (OpenAI is the assignment default)
-OPENAI_API_KEY=sk-...
-# or
-GOOGLE_API_KEY=ya29....
 
-# optional overrides
-STORY_LLM_PROVIDER=auto   # auto | openai | gemini
-GEMINI_MODEL=gemini-1.5-flash-latest
-```
+Launch the Streamlit studio
 
----
-
-## Running the Project
-
-### CLI (quick smoke test)
-```bash
-source venv/bin/activate
-python main.py
-```
-Enter a topic, age, and tone; the script prints the story along with the judge JSON so you can verify the iterative loop.
-
-### Streamlit “Bedtime Story Studio”
-> **Choose your model before launching**  
-> - Default OpenAI run (assignment-compliant): `export STORY_LLM_PROVIDER=auto` and ensure `.env` has only `OPENAI_API_KEY`.  
-> - Gemini run:  
->   ```bash
->   export STORY_LLM_PROVIDER=gemini
->   export GEMINI_MODEL=gemini-2.5-flash   # optional override
->   export GOOGLE_API_KEY=ya29...                # or set in .env
->   ```
-
-```bash
 source venv/bin/activate
 streamlit run streamlit_app.py
+Then open the localhost URL, fill in topic/age/tone, click Generate Story, and use the tweak buttons or download.
+
+(Optional) Run the CLI smoke test
+
+source venv/bin/activate
+python main.py
 ```
 Open the localhost URL → fill out the Setup card → click **Generate Story** → review the story, word-count pill, safety badge, and judge summary.  
 When you need changes, pick a quick tweak or write custom feedback, hit **Apply feedback**, and a revised story appears. Download the result via the **Download** button.
